@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
-    <div id="show-number"></div>
+    <div id="wrapper">
+        <h1>Totally Trivial Trivia!</h1>
+        <br>
+        <div id="show-number"></div>
+        <br>
+        <form name="Trivia">
+            <h4>What was the first full length CGI movie?</h4>
+            <br>
+            <div class="q1">
+                <input type="radio" id="q1a1" name="q1answer" value="1"><label for="q1choice1"> A bug's life</label>
+                <input type="radio" id="q1a2" name="q1answer" value="2"><label for="q1choice2"> Monter's, Inc</label>
+                <input type="radio" id="q1a3" name="q1answer" value="3"><label for="q1choice3"> Toy story</label>
+                <input type="radio" id="q1a4" name="q1answer" value="4"><label for="q1choice4"> The lion king</label>
+            </div>
+            <br>
+            <br>
+            <h4>Which of these is NOT a name of one of the Spice Girls?</h4>
+            <br>
+            <div class="q2">
+                <input type="radio" id="q2a1" name="q2answer" value="1"><label for="q2choice1"> Sport Spice</label>
+                <input type="radio" id="q2a2" name="q2answer" value="2"><label for="q2choice2"> Fred Spice</label>
+                <input type="radio" id="q2a3" name="q2answer" value="3"><label for="q2choice3"> Scary Spice</label>
+                <input type="radio" id="q2a4" name="q2answer" value="4"><label for="q2choice4"> Posh Spice</label>
+            </div>
+            <br>
+            <br>
+            <h4>Which NBA team won the most titles in the 90's?</h4>
+            <br>
+            <div class="q3">
+                <input type="radio" id="q3a1" name="q3answer" value="1"><label for="q3choice1"> NY Giants</label>
+                <input type="radio" id="q3a2" name="q3answer" value="2"><label for="q3choice2"> Portland Trailblazers</label>
+                <input type="radio" id="q3a3" name="q3answer" value="3"><label for="q3choice3"> Los Angeles Lakers</label>
+                <input type="radio" id="q3a4" name="q3answer" value="4"><label for="q3choice1"> Chicago Bulls</label>
+            </div>
+        </form>
+    </div>
 
-
-
-
-
-
-
-    
-    
     <script src="assets/javascript/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-    
+
+
 </body>
+
 </html>
